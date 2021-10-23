@@ -65,7 +65,7 @@ public class ProgramState {
         msg += this.symbolTable.toString() + "\n";
         msg += "* * * * * * * * Output List * * * * * * * * * * * * * * * * * *\n";
         msg += this.out.toString() + "\n";
-        msg = " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n";
+        msg += " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n";
 
         return msg;
     }

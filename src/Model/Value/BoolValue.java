@@ -16,7 +16,7 @@ public class BoolValue implements ValueInterface{
 
     @Override
     public boolean equals(Object obj){
-        if(!(obj instanceof BoolType))
+        if(!(obj instanceof BoolValue))
             return false;
         BoolValue obj_val = (BoolValue) obj;
         return obj_val.val == this.val;

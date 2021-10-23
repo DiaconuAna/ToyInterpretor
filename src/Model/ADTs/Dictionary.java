@@ -35,6 +35,11 @@ public class Dictionary<K, V> implements DictInterface<K, V> {
 
     @Override
     public boolean isDefined(String id) {
-        return false;
+        return this.dictionary.containsKey(id);
+    }
+
+    @Override
+    public String toString(){
+        return this.dictionary.toString();
     }
 }

@@ -40,6 +40,6 @@ public class MyList<T> implements ListInterface<T> {
 
     @Override
     public String toString(){
-        return null;
+        return this.list.toString();
     }
 }

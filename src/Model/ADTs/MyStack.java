@@ -3,10 +3,11 @@ import java.util.Stack;
 import Exceptions.ADTsExceptions;
 
 public class MyStack<T> implements StackInterface<T> {
-    private MyStack<T> stack;
+
+    private Stack<T> stack;
 
     public MyStack(){
-        this.stack = new MyStack<T>();
+        this.stack = new Stack<>();
     }
 
     @Override
@@ -28,6 +29,6 @@ public class MyStack<T> implements StackInterface<T> {
 
     @Override
     public String toString(){
-        return null;
+        return this.stack.toString();
     }
 }

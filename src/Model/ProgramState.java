@@ -4,13 +4,18 @@ import Model.ADTs.StackInterface;
 import Model.ADTs.DictInterface;
 import Model.ADTs.ListInterface;
 import Model.Statements.StatementInterface;
+import Model.Value.BoolValue;
+import Model.Value.StringValue;
 import Model.Value.ValueInterface;
+
+import java.io.BufferedReader;
 
 public class ProgramState {
     StackInterface<StatementInterface> executionStack;
     DictInterface<String, ValueInterface> symbolTable;
     ListInterface<ValueInterface> out;
     StatementInterface originalProgram;
+    DictInterface<StringValue, BufferedReader> fileTable;
 
     public ProgramState(StackInterface<StatementInterface> exe, DictInterface<String, ValueInterface> sym,
             ListInterface<ValueInterface> out, StatementInterface org){
@@ -21,7 +26,17 @@ public class ProgramState {
 
         this.executionStack.push(this.originalProgram);
     }
-    //TODO: override toString, have getters and setters for all fields
+
+    public ProgramState(StackInterface<StatementInterface> exe, DictInterface<String, ValueInterface> sym,
+                        ListInterface<ValueInterface> out, StatementInterface org, DictInterface<StringValue, BufferedReader> file){
+        this.executionStack = exe;
+        this.symbolTable = sym;
+        this.out = out;
+        this.originalProgram = org;
+        this.fileTable = file;
+
+        this.executionStack.push(this.originalProgram);
+    }
 
     public StackInterface<StatementInterface> getExecutionStack(){
         return this.executionStack;
@@ -55,6 +70,14 @@ public class ProgramState {
         this.originalProgram = org;
     }
 
+    public DictInterface<StringValue, BufferedReader> getFileTable(){
+        return this.fileTable;
+    }
+
+    public void setFileTable(DictInterface<StringValue, BufferedReader> ft){
+        this.fileTable = ft;
+    }
+
     @Override
     public String toString(){
         String msg;
@@ -65,6 +88,8 @@ public class ProgramState {
         msg += this.symbolTable.toString() + "\n";
         msg += "* * * * * * * * Output List * * * * * * * * * * * * * * * * * *\n";
         msg += this.out.toString() + "\n";
+        msg += "* * * * * * * * File Table * * * * * * * * * * * * * * * * * *\n";
+        msg += this.fileTable.toString() + "\n";
         msg += " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n";
 
         return msg;

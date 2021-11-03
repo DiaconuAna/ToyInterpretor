@@ -6,6 +6,7 @@ public interface DictInterface<K, V> {
     void add(K key, V value) throws ADTsExceptions;
     void update(K key, V value) throws ADTsExceptions;
     V lookup(K info);
-    boolean isDefined(String id);
+    boolean isDefined(K id);
+    void remove(K id) throws ADTsExceptions;
     String toString();
 }

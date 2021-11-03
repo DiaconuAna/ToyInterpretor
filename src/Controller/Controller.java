@@ -6,6 +6,8 @@ import Model.ProgramState;
 import Model.Statements.StatementInterface;
 import Repository.RepositoryInterface;
 
+import java.io.IOException;
+
 public class Controller {
     private RepositoryInterface repository;
     boolean displayFlag;
@@ -25,7 +27,7 @@ public class Controller {
         return state;
     }
 
-    public ProgramState oneStep(ProgramState state) throws ControllerException, ADTsExceptions, StatementException, ExpressionException {
+    public ProgramState oneStep(ProgramState state) throws ControllerException, ADTsExceptions, StatementException, ExpressionException, IOException {
         StackInterface<StatementInterface> stack = state.getExecutionStack();
 
         if(stack.isEmpty())
@@ -35,13 +37,16 @@ public class Controller {
         return currentStatement.execute(state);
     }
 
-    public void allStep() throws RepositoryException, ControllerException, StatementException, ADTsExceptions, ExpressionException {
+    public void allStep() throws RepositoryException, ControllerException, StatementException, ADTsExceptions, ExpressionException, IOException {
         ProgramState program = this.repository.getCurrentProgram();
-       // if(getDisplayFlag())
-        //    displayState(program);
+        this.repository.logProgramStateExec();
+        if(getDisplayFlag())
+            displayState(program);
 
         while(!program.getExecutionStack().isEmpty()){
             oneStep(program);
+            this.repository.logProgramStateExec();
+
             if(getDisplayFlag())
                 displayState(program);
         }

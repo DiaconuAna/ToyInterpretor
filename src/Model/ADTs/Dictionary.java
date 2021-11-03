@@ -34,8 +34,16 @@ public class Dictionary<K, V> implements DictInterface<K, V> {
     }
 
     @Override
-    public boolean isDefined(String id) {
+    public boolean isDefined(K id) {
         return this.dictionary.containsKey(id);
+    }
+
+    @Override
+    public void remove(K id) throws ADTsExceptions {
+        if(this.lookup(id) == null)
+            throw new ADTsExceptions("There is no value  to be removed");
+        else
+            this.dictionary.remove(id);
     }
 
     @Override

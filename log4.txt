@@ -1,0 +1,2732 @@
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@31221be2}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@2ef1e4fa}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@6e5e91e4}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@799f7e29}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@27f8302d}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(String varf;(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))), String varf]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(varf = test.in;(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))), varf = test.in]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(Open file(varf) for reading;(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))), Open file(varf) for reading]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(int varc;(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))), int varc]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=0}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf))), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(ReadFile( varf ; varc) ;(print(varc);Close ReadFile(varf)))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf)), ReadFile( varf ; varc) ]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=15}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[(print(varc);Close ReadFile(varf))]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf), print(varc)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[Close ReadFile(varf)]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{test.in=java.io.BufferedReader@7ab2bfe1}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * PROGRAM STATE * * * * * * * * * * * * * * * * * 
+ * * * * * * * ID: 4* * * * * * * * * * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Execution Stack * * * * * * * * * * * * * * * *
+[]
+* * * * * * * * Symbol Table * * * * * * * * * * * * * * * * * 
+{varf=test.in, varc=50}
+* * * * * * * * Output List * * * * * * * * * * * * * * * * * *
+[15, 50]
+* * * * * * * * File Table * * * * * * * * * * * * * * * * * * *
+{}
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * Heap * * * * * * * * * * * * * * * * * *
+{}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

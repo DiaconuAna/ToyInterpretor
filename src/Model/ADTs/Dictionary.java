@@ -50,4 +50,22 @@ public class Dictionary<K, V> implements DictInterface<K, V> {
     public String toString(){
         return this.dictionary.toString();
     }
+
+    @Override
+    public Map<K, V> getContent() {
+        return this.dictionary;
+    }
+
+    @Override
+    public DictInterface<K, V> clone() {
+        DictInterface<K,V> new_dictionary = new Dictionary<>();
+        for(K key: this.dictionary.keySet()) {
+            try {
+                new_dictionary.add(key, dictionary.get(key));
+            } catch (ADTsExceptions e) {
+                e.printStackTrace();
+            }
+        }
+        return new_dictionary;
+    }
 }

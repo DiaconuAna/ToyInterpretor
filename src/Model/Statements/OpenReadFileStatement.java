@@ -4,6 +4,7 @@ import Exceptions.ADTsExceptions;
 import Exceptions.ExpressionException;
 import Exceptions.StatementException;
 import Model.ADTs.DictInterface;
+import Model.ADTs.HeapInterface;
 import Model.ADTs.StackInterface;
 import Model.Expression.ExpressionInterface;
 import Model.ProgramState;
@@ -38,9 +39,11 @@ public class OpenReadFileStatement implements StatementInterface{
         StackInterface<StatementInterface> statementStack = state.getExecutionStack();
         DictInterface<String, ValueInterface> sym = state.getSymbolTable();
         DictInterface<StringValue, BufferedReader> filetable = state.getFileTable();
+        HeapInterface<ValueInterface> heaptable = state.getHeapTable();
+
 
         //StatementInterface current_statement = statementStack.pop();
-        ValueInterface val = this.expression.eval(sym);
+        ValueInterface val = this.expression.eval(sym, heaptable);
         if(val.getType().equals(new StringType())){
             StringValue stringVal = (StringValue)val;
             if(filetable.isDefined(stringVal)){
@@ -59,7 +62,27 @@ public class OpenReadFileStatement implements StatementInterface{
         }
         else
             throw new StatementException("Expression must be of type String!");
-        return state;
+        return null;
+    }
+
+    @Override
+    public StatementInterface deepCopy() {
+        return new OpenReadFileStatement(expression.deepCopy());
+    }
+
+    //G|- exp:string
+    //--------------------------
+    //G|- openRFile(exp):void, G
+
+    @Override
+    public DictInterface<String, TypeInterface> typecheck(DictInterface<String, TypeInterface> typeEnv) throws StatementException, ExpressionException, ADTsExceptions {
+        TypeInterface expression_type = this.expression.typecheck(typeEnv);
+
+        if(expression_type.equals(new StringType())){
+            return typeEnv;
+        }
+        else
+            throw new StatementException("Open Read File: expression must be of string type");
     }
 
     @Override

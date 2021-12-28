@@ -22,7 +22,21 @@ public class VarDeclStatement implements StatementInterface {
         DictInterface<String, ValueInterface> symbolTable = state.getSymbolTable();
         ValueInterface val = this.var_type.defaultVal();
         symbolTable.add(this.var_name, val);
-        return state;
+        return null;
+    }
+
+    @Override
+    public StatementInterface deepCopy() {
+        return new VarDeclStatement(var_name, var_type.deepCopy());
+    }
+
+    //----------------------------------
+    //G|- type id : void, G+[(id:type)]
+
+    @Override
+    public DictInterface<String, TypeInterface> typecheck(DictInterface<String, TypeInterface> typeEnv) throws StatementException, ExpressionException, ADTsExceptions {
+        typeEnv.add(this.var_name, this.var_type);
+        return typeEnv;
     }
 
     @Override

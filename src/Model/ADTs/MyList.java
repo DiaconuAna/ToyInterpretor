@@ -26,6 +26,15 @@ public class MyList<T> implements ListInterface<T> {
         this.list.clear();
     }
 
+    @Override
+    public ListInterface<T> clone() {
+        ListInterface<T> newlist = new MyList<>();
+        for(T el: this.list) {
+            newlist.add(el);
+        }
+        return newlist;
+    }
+
     public T getFirst() throws ADTsExceptions{
         if(this.list.size() == 0)
             throw new ADTsExceptions("List is empty.");

@@ -4,10 +4,12 @@ import Exceptions.ADTsExceptions;
 import Exceptions.ExpressionException;
 import Exceptions.StatementException;
 import Model.ADTs.DictInterface;
+import Model.ADTs.HeapInterface;
 import Model.ADTs.StackInterface;
 import Model.Expression.ExpressionInterface;
 import Model.ProgramState;
 import Model.Types.StringType;
+import Model.Types.TypeInterface;
 import Model.Value.StringValue;
 import Model.Value.ValueInterface;
 
@@ -26,9 +28,10 @@ public class CloseReadFile implements StatementInterface{
         StackInterface<StatementInterface> stmtstack = state.getExecutionStack();
         DictInterface<StringValue, BufferedReader> filetable = state.getFileTable();
         DictInterface<String, ValueInterface> sym = state.getSymbolTable();
+        HeapInterface<ValueInterface> heaptable = state.getHeapTable();
 
-       // StatementInterface stmt = stmtstack.pop();
-        ValueInterface val = this.expression.eval(sym);
+        // StatementInterface stmt = stmtstack.pop();
+        ValueInterface val = this.expression.eval(sym, heaptable);
         if(val.getType().equals(new StringType())){
             StringValue stringValue = (StringValue)val;
             BufferedReader fd;
@@ -42,7 +45,28 @@ public class CloseReadFile implements StatementInterface{
         }
         else
             throw new StatementException("Expression must be a string");
-        return state;
+        return null;
+    }
+
+    @Override
+    public StatementInterface deepCopy() {
+        return new CloseReadFile(this.expression.deepCopy());
+    }
+
+
+    //G|- exp:string
+    //--------------------------
+    //G|- closeRFile(exp):void, G
+
+    @Override
+    public DictInterface<String, TypeInterface> typecheck(DictInterface<String, TypeInterface> typeEnv) throws StatementException, ExpressionException, ADTsExceptions {
+        TypeInterface expression_type = this.expression.typecheck(typeEnv);
+
+        if(expression_type.equals(new StringType())){
+            return typeEnv;
+        }
+        else
+            throw new StatementException("Expression for closing the file must be of string type");
     }
 
     @Override

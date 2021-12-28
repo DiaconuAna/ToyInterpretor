@@ -27,12 +27,12 @@ public class Repository implements RepositoryInterface {
         this.logFilePath = logFP;
     }
 
-    @Override
-    public ProgramState getCurrentProgram() throws RepositoryException {
-        if(program_list.isEmpty())
-            throw new RepositoryException("Program list is empty");
-        return program_list.get(program_list.size()-1);
-    }
+//    @Override
+//    public ProgramState getCurrentProgram() throws RepositoryException {
+//        if(program_list.isEmpty())
+//            throw new RepositoryException("Program list is empty");
+//        return program_list.get(program_list.size()-1);
+//    }
 
     @Override
     public ProgramState addProgram(ProgramState p) {
@@ -41,7 +41,7 @@ public class Repository implements RepositoryInterface {
     }
 
     @Override
-    public void logProgramStateExec() throws RepositoryException, IOException {
+    public void logProgramStateExec(ProgramState ps) throws RepositoryException, IOException {
         PrintWriter logFile;
         try {
            logFile = new PrintWriter(new BufferedWriter(new FileWriter(this.logFilePath, true)));
@@ -51,8 +51,20 @@ public class Repository implements RepositoryInterface {
         }
 
         for(ProgramState state: this.program_list){
-            logFile.write(getCurrentProgram().toString());
+            logFile.write(ps.toString());
         }
         logFile.close();
+    }
+
+
+
+    @Override
+    public List<ProgramState> getProgramList() {
+        return this.program_list;
+    }
+
+    @Override
+    public void setProgramList(List<ProgramState> l) {
+        this.program_list = l;
     }
 }

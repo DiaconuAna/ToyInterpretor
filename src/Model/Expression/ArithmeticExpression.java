@@ -2,8 +2,10 @@ package Model.Expression;
 
 import Exceptions.ExpressionException;
 import Model.ADTs.DictInterface;
+import Model.ADTs.HeapInterface;
 import Model.Expression.ExpressionInterface;
 import Model.Types.IntType;
+import Model.Types.TypeInterface;
 import Model.Value.IntValue;
 import Model.Value.ValueInterface;
 
@@ -28,12 +30,12 @@ public class ArithmeticExpression implements ExpressionInterface{
     }
 
     @Override
-    public ValueInterface eval(DictInterface<String, ValueInterface> table) throws ExpressionException {
+    public ValueInterface eval(DictInterface<String, ValueInterface> table, HeapInterface<ValueInterface> heap) throws ExpressionException {
         ValueInterface v1, v2;
-        v1 = this.exp1.eval(table);
+        v1 = this.exp1.eval(table, heap);
 
         if(v1.getType().equals(new IntType())){
-            v2 = this.exp2.eval(table);
+            v2 = this.exp2.eval(table, heap);
             if(v2.getType().equals(new IntType())){
                 IntValue i1 = (IntValue)v1;
                 IntValue i2 = (IntValue)v2;
@@ -61,6 +63,29 @@ public class ArithmeticExpression implements ExpressionInterface{
         else
             throw new ExpressionException("First operand is not an integer!");
     }
+
+    @Override
+    public ExpressionInterface deepCopy() {
+        return new ArithmeticExpression(getOperand(), this.exp1.deepCopy(), this.exp2.deepCopy());
+    }
+
+    @Override
+    public TypeInterface typecheck(DictInterface<String, TypeInterface> typeEnv) throws ExpressionException {
+        TypeInterface type1, type2;
+        type1 = this.exp1.typecheck(typeEnv);
+        type2 = this.exp2.typecheck(typeEnv);
+
+        if(type1.equals(new IntType())){
+            if(type2.equals(new IntType())){
+                return new IntType();
+            }
+            else
+                throw new ExpressionException("2nd operand is not an integer");
+        }
+        else
+            throw new ExpressionException("1st operand is not an integer");
+    }
+
 
     @Override
     public String toString(){

@@ -1,6 +1,7 @@
 package Model.Expression;
 
 import Exceptions.ExpressionException;
+import Model.ADTs.HeapInterface;
 import Model.Expression.ExpressionInterface;
 import Model.Types.BoolType;
 import Model.Types.TypeInterface;
@@ -26,12 +27,12 @@ public class LogicalExpression implements ExpressionInterface{
     }
 
     @Override
-    public ValueInterface eval(DictInterface<String, ValueInterface> table) throws ExpressionException {
+    public ValueInterface eval(DictInterface<String, ValueInterface> table, HeapInterface<ValueInterface> heap) throws ExpressionException {
         ValueInterface v1,v2;
-        v1 = this.exp1.eval(table);
+        v1 = this.exp1.eval(table, heap);
 
         if(v1.getType().equals(new BoolType())){
-            v2 = this.exp2.eval(table);
+            v2 = this.exp2.eval(table, heap);
             if(v2.getType().equals(new BoolType())){
                 BoolValue b1 = (BoolValue)v1;
                 BoolValue b2 = (BoolValue)v2;
@@ -53,6 +54,29 @@ public class LogicalExpression implements ExpressionInterface{
         }
         else
             throw new ExpressionException("Left side cannot be evaluated");
+    }
+
+    @Override
+    public ExpressionInterface deepCopy() {
+        return new LogicalExpression(getOperand(), this.exp1.deepCopy(), this.exp2.deepCopy());
+    }
+
+    @Override
+    public TypeInterface typecheck(DictInterface<String, TypeInterface> typeEnv) throws ExpressionException {
+        TypeInterface type1, type2;
+        type1 = this.exp1.typecheck(typeEnv);
+        type2 = this.exp2.typecheck(typeEnv);
+
+        if(type1.equals(new BoolType())){
+            if(type2.equals(new BoolType())){
+                return new BoolType();
+            }
+            else
+                throw new ExpressionException("2nd operand is not a boolean");
+
+        }
+        else
+            throw new ExpressionException("1st operand is not a boolean");
     }
 
     @Override

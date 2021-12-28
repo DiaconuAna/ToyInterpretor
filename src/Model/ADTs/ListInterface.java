@@ -7,5 +7,6 @@ public interface ListInterface<T> {
     String toString();
     boolean isEmpty();
     void clear();
+    public ListInterface<T> clone();
 
 }

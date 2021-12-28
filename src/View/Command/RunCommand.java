@@ -13,6 +13,7 @@ public class RunCommand extends Command{
     @Override
     public void execute(){
         try{
+            this.controller.typecheck();
             this.controller.allStep();
         }
         catch (Exception exp){
